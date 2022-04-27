@@ -2,9 +2,9 @@
 
 FROM mcr.microsoft.com/windows/servercore:2004
 
-LABEL org.opencontainers.image.source https://github.com/rajyraman/docker-github-self-hosted-runner
-LABEL org.opencontainers.image.documentation https://github.com/rajyraman/docker-github-self-hosted-runner/README.md
-LABEL org.opencontainers.image.authors Natraj Yegnaraman
+LABEL org.opencontainers.image.source https://github.com/khalidbinsattar/docker-github-self-hosted-runner
+LABEL org.opencontainers.image.documentation https://github.com/khalidbinsattar/docker-github-self-hosted-runner/README.md
+LABEL org.opencontainers.image.authors Khalid
 LABEL org.opencontainers.image.title Self Hosted GitHub Runner on Docker
 LABEL org.opencontainers.image.description This image helps you to develop debug GitHub Workflow by running it in a self-hosted runner on Docker
 
