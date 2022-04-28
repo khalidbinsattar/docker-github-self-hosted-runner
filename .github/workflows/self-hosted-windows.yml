@@ -20,7 +20,7 @@ jobs:
     # The type of runner that the job will run on
     runs-on: [self-hosted,windows,x64]
     env:
-      environmenturl: https//dreamingincrm.crm6.dynamics.com
+      environmentUrl: https//dreamingincrm.crm6.dynamics.com
       userName: "actionuser@dreamingincrm.onmicrosoft.com"
       applicationId: "e605bea5-f749-4f51-8508-8c6891d9f8dc"
       solution: "GitHubActionsDemo"
