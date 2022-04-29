@@ -10,7 +10,7 @@ LABEL org.opencontainers.image.description This image helps you to develop debug
 
 ADD runner-setup.ps1 C:/runner-setup.ps1
 
-WORKDIR /actions-runner1
+WORKDIR /actions-runner123
 
 SHELL [ "powershell" ]
 
