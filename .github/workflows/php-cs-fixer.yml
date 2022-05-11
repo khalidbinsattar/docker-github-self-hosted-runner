@@ -1,0 +1,12 @@
+name: php-cs-fixer
+on: [ push, pull_request ]
+
+jobs:
+  php-cs-fixer:
+    runs-on: [self-hosted, Windows, X64]
+    name: Run PHP CS
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run PHPCS
+        run: |
+          phpcs --standard=PSR12 *.php
