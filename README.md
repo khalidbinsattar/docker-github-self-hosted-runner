@@ -22,6 +22,6 @@ docker-compose up
 
 
 ```
-.\runner-setup.ps1 -repo "3ShapeInternal/ThreeShape.CICD.GithubActions.Runners" -githubPersonalAccessToken "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"
+.\runner-setup.ps1 -repo "3ShapeInternal/ThreeShape.CICD.GithubActions.Runners" -githubPersonalAccessToken "<Github-Token>"
 ```
 
