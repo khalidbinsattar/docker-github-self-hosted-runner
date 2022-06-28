@@ -1,6 +1,6 @@
 # escape=`
 
-FROM mcr.microsoft.com/windows/servercore:2004
+FROM eugithubactionsrunnerst.azurecr.io/winrunner:20220608.2
 
 LABEL org.opencontainers.image.source https://github.com/khalidbinsattar/docker-github-self-hosted-runner
 LABEL org.opencontainers.image.documentation https://github.com/khalidbinsattar/docker-github-self-hosted-runner/README.md
@@ -10,7 +10,7 @@ LABEL org.opencontainers.image.description This image helps you to develop debug
 
 ADD runner-setup.ps1 C:/runner-setup.ps1
 
-WORKDIR /actions-runner123
+WORKDIR /actions-runner
 
 SHELL [ "powershell" ]
 
